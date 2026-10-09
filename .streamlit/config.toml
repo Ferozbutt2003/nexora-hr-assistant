@@ -1,0 +1,13 @@
+[server]
+# Skip scanning library files for changes (avoids torchvision import noise).
+fileWatcherType = "none"
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#1F3A68"
+backgroundColor = "#F3F5F8"
+secondaryBackgroundColor = "#E6EAF0"
+textColor = "#1B2433"
